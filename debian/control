@@ -1,0 +1,26 @@
+Source: mainline-kernel-tool
+Section: utils
+Priority: optional
+Maintainer: Alex Syrnikov <alex19srv@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-golang,
+ golang-github-spf13-cobra-dev,
+ golang-go,
+ just,
+Standards-Version: 4.6.2
+Homepage: https://github.com/alex19srv/mainline-kernel-tool
+XS-Go-Import-Path: mainline-kernel-tool
+
+Package: mainline-kernel-tool
+Architecture: any
+Multi-Arch: foreign
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: tool to check and install latest mainline kernel
+ This package helps to
+ -- check latest mainline version for ubuntu on
+ https://kernel.ubuntu.com/mainline/ repository
+ -- download and install it

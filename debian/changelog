@@ -1,0 +1,5 @@
+mainline-kernel-tool (0.1.0-1) noble; urgency=medium
+
+  * Initial release (LP: #1234568)
+
+ -- Alex Syrnikov <alex19srv@gmail.com>  Sun, 24 Aug 2025 00:10:18 +0000
