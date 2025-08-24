@@ -4,7 +4,7 @@ Ubuntu mainline kernel tool предназначен для загрузки п�
 !!! На текущий момент - это MVP, работает минимальная функциональность. Кому надо больше или если нашли баг - заводите task. !!!
 
 ## как установить
-Установить из пакета:
+Установить из PPA: https://launchpad.net/~alex19srv/+archive/ubuntu/ppa
 ```bash
 sudo add-apt-repository ppa:alex19srv/ppa
 sudo apt update
