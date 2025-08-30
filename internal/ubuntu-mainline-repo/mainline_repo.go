@@ -4,12 +4,13 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-	"mainline-kernel-tool/internal/http_client"
-	kversion "mainline-kernel-tool/internal/kernel_version"
 	"os"
 	"regexp"
 	"slices"
 	"strconv"
+
+	"github.com/alex19srv/ubuntu-mainline-kernel-tool/internal/http_client"
+	kversion "github.com/alex19srv/ubuntu-mainline-kernel-tool/internal/kernel_version"
 )
 
 const (

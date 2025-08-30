@@ -2,7 +2,7 @@
 // Copyright 2025 Alex Syrnikov <alex19srv@gmail.com>
 package main
 
-import "mainline-kernel-tool/cmd/mainline_kernel/cmd"
+import "github.com/alex19srv/ubuntu-mainline-kernel-tool/cmd/mainline_kernel/cmd"
 
 func main() {
 	cmd.Execute()

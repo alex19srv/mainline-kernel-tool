@@ -1,4 +1,4 @@
-module mainline-kernel-tool
+module github.com/alex19srv/ubuntu-mainline-kernel-tool
 
 go 1.22
 

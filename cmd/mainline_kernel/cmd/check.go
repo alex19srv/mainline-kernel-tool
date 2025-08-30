@@ -4,8 +4,9 @@ package cmd
 
 import (
 	"fmt"
-	kversion "mainline-kernel-tool/internal/kernel_version"
-	mrepo "mainline-kernel-tool/internal/ubuntu-mainline-repo"
+
+	kversion "github.com/alex19srv/ubuntu-mainline-kernel-tool/internal/kernel_version"
+	mrepo "github.com/alex19srv/ubuntu-mainline-kernel-tool/internal/ubuntu-mainline-repo"
 
 	"github.com/spf13/cobra"
 )

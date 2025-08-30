@@ -4,7 +4,8 @@ package cmd
 
 import (
 	"fmt"
-	kversion "mainline-kernel-tool/internal/kernel_version"
+
+	kversion "github.com/alex19srv/ubuntu-mainline-kernel-tool/internal/kernel_version"
 )
 
 func installedVersion(cmdVersion string) (kversion.KernelVersion, error) {
